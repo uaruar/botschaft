@@ -41,7 +41,7 @@ window.onload = function() {
     };
 
     window.onresize = function() {
-      $("#bigText").fitText();
+      render(slides.current());
     }
 
     render(slides.current());
