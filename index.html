@@ -1,79 +1,34 @@
-<!DOCTYPE html><html><head><title>kartographieren</title><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-<link href='big.css' rel='stylesheet' type='text/css' />
-<style>
-  .new-shiny { background: #bbb; }
-  iframe { width: 120%; height: 800px; }
-  //div { text-align:center; }
-</style>
-<script src='big.js'></script>
-<base target="_blank">
-</head>
-<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>kartographieren</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <link href='big.css' rel='stylesheet' type='text/css' />
+    <script>
+      var slidesData = [
+        {
+          background: "url('80-1.jpeg Kopie.jpg')",
+          text: "Es besteht Ausweispflicht."
+        }, {
+          background: "url('Unknown-34.jpeg Kopie.jpg')",
+          text: "Der Sex in öffentlichen Bereichen ist nicht gestattet."
+        }, {
+          background: "url('Unknown-42.jpeg Kopie.jpg')",
+          text: "Dieser Bereich ist video-überwacht."
+        }
+      ];
+    </script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.fittext.js"></script>
+    <script src='big.js'></script>
+    <base target="_blank">
+  </head>
 
-
-
-<div><img src="img/luftbild-mt.jpg">&rarr; Es besteht Ausweis-pflicht.</div>
-<div><img src="img/Koeln-Luftbild.jpg">&rarr; Der Sex in öffen-tlichen Bereichen ist nicht gestattet.</div>
-<div><img src="img/freiburg.jpg">&rarr; Dieser Bereich ist video-überwacht.</div>
-<div><img src="img/IMG_20161031_094024.jpg">&rarr; Bitte lassen Sie ihr Gepäck nicht unbe-aufsichtigt.</div>
-<div><img src="img/IMG_20161031_100441.jpg">&rarr; Das Rauchen ist nur in den gekenn-zeichneten Raucher-bereichen gestattet.</div>
-<div><img src="img/IMG_20161031_095811.jpg">&rarr; Zutritt nur mit gültigem Ticket.</div>
-<div><img src="img/IMG_20161124_152840.jpg">&rarr; Schwarz- fahren wird bestraft.</div>
-<div><img src="img/IMG_20161127_150727.jpg">&rarr; Du hast nicht gezahlt.</div>
-<div><img src="img/80-1.jpeg Kopie.jpg">&rarr; Für jede Haltungsform das richtige Huhn.</div>
-<div><img src="img/Unknown-1.jpeg Kopie.jpg">&rarr; Dieser Bereich ist videoüberwacht.</div>
-<div><img src="img/Unknown-2_new.jpeg Kopie.jpg">&rarr; Vandalismus wird strafrechtlich verfolgt.</div>
-<div><img src="img/Unknown-2.jpeg Kopie.jpg">&rarr; Das Baden in öffentlichen Brunnenanlagen ist untersagt.</div>
-<div><img src="img/Unknown-3.jpeg Kopie.jpg">&rarr; Zutritt nur mit gültigem Ticket.</div>
-<div><img src="img/Unknown-4_new.jpeg Kopie.jpg">&rarr; Der trägt Socken in den Sandalen.</div>
-<div><img src="img/Unknown-4.jpeg Kopie.jpg">&rarr; Schwarzfahrer zahlen 40€.</div>
-<div><img src="img/Unknown-5_new.jpeg Kopie.jpg">&rarr; Beim Fahrradfahren müssen beide Hände am Lenker sein.</div>
-<div><img src="img/Unknown-5.jpeg Kopie.jpg">&rarr; Bitte lösen Sie ein Parkticket.</div>
-<div><img src="img/Unknown-6_new.jpeg Kopie.jpg">&rarr; Für Garderobe wird nicht gehaftet.</div>
-<div><img src="img/Unknown-6.jpeg Kopie.jpg">&rarr; Es besteht Ausweispflicht.</div>
-<div><img src="img/Unknown-7_new.jpeg Kopie.jpg">&rarr; Unberechtigt parkende Fahrzeuge werden kostenpflichtig abgeschleppt.</div>
-<div><img src="img/Unknown-7.jpeg Kopie.jpg">&rarr; Du hast nicht gezahlt.</div>
-<div><img src="img/Unknown-8_new.jpeg Kopie.jpg">&rarr; Bitte beachten Sie die Altersbeschränkung.</div>
-<div><img src="img/Unknown-8.jpeg Kopie.jpg">&rarr; Der Kunde ist König.</div>
-<div><img src="img/Unknown-9.jpeg Kopie.jpg">&rarr; Der schnellste Weg zum Angelschein.</div>
-<div><img src="img/Unknown-10.jpeg Kopie.jpg">&rarr; Du bist verpflichtet im Schwimmbad einen Badeanzug zu tragen.</div>
-<div><img src="img/Unknown-11.jpeg Kopie.jpg">&rarr; Der Sex in öffentlichen Bereichen ist nicht gestattet.</div>
-<div><img src="img/Unknown-15.jpeg Kopie.jpg">&rarr; Für Garderobe wird keine Haftung übernommen.</div>
-<div><img src="img/Unknown-16.jpeg Kopie.jpg">&rarr; CCTV</div>
-<div><img src="img/Unknown-17_new.jpeg Kopie.jpg">&rarr; 8.000 Schritte pro Tag oder mind. 30min. Bewegung.</div>
-<div><img src="img/Unknown-17.jpeg Kopie.jpg">&rarr; Mindestens 50.000 Schritte in der Woche.</div>
-<div><img src="img/Unknown-19_new.jpeg Kopie.jpg">&rarr; Beförderung nur mit gültigem Fahrausweis.</div>
-<div><img src="img/Unknown-20_new.jpeg Kopie.jpg">&rarr; Bitte verhalten Sie sich auf dem Friedhofgelände angemessen.</div>
-<div><img src="img/Unknown-21_new.jpeg Kopie.jpg">&rarr; Es werden keine alkoholische Getränke an Minderjährige verkauft.</div>
-<div><img src="img/Unknown-22_new.jpeg Kopie.jpg">&rarr; Service-Kräfte müssen freundlich sein.</div>
-<div><img src="img/Unknown-22.jpeg Kopie.jpg">&rarr; Nicht mit vollem Mund sprechen.</div>
-<div><img src="img/Unknown-23_new.jpeg Kopie.jpg">&rarr; Bikini Zonen Zeit.</div>
-<div><img src="img/Unknown-24_new.jpeg Kopie.jpg">&rarr; Zugang unter 18 Jahren verboten.</div>
-<div><img src="img/Unknown-24.jpeg Kopie.jpg">&rarr; Im Auto sind Führerschein und Autopapiere immer mit zu führen.</div>
-<div><img src="img/Unknown-25.jpeg Kopie.jpg">&rarr; Der Besitz einer Waffe erfordert einen Waffenschein.</div>
-<div><img src="img/Unknown-26.jpeg Kopie.jpg">&rarr; Es ist dir nicht erlaubt Selbstmord zu begehen.</div>
-<div><img src="img/Unknown-28.jpeg Kopie.jpg">&rarr; Campieren ist auf öffentlichen Plätzen nicht gestattet.</div>
-<div><img src="img/Unknown-29.jpeg Kopie.jpg">&rarr; Asylbewerbern ist es verboten zu arbeiten.</div>
-<div><img src="img/Unknown-30.jpeg Kopie.jpg">&rarr; Bitte halten Sie sich an die Geschwindigkeitsbegrenzung.</div>
-<div><img src="img/Unknown-31.jpeg Kopie.jpg">&rarr; Bitte beachten Sie beim Ausstieg den Abstand zwischen Zug und Bahnsteigkante.</div>
-<div><img src="img/Unknown-32.jpeg Kopie.jpg">&rarr; Eltern haften für ihre Kinder.</div>
-<div><img src="img/Unknown-33.jpeg Kopie.jpg">&rarr; Maximal 90 min. TV Konsum pro Tag für 13 jährige.</div>
-<div><img src="img/Unknown-34.jpeg Kopie.jpg">&rarr; Ein Glas Wein am Tag ist gesund.</div>
-<div><img src="img/Unknown-39.jpeg Kopie.jpg">&rarr; Kein Alkohol am Steuer.</div>
-<div><img src="img/Unknown-40.jpeg Kopie.jpg">&rarr; Glücksspiel ist Minderjährigen untersagt.</div>
-<div><img src="img/Unknown-41.jpeg Kopie.jpg">&rarr; Passen Sie auf Ihre Wertsachen auf.</div>
-<div><img src="img/Unknown-42.jpeg Kopie.jpg">&rarr; Achtung, Rutschgefahr.</div>
-<div><img src="img/Unknown-43.jpeg Kopie.jpg">&rarr; Fragen Sie Ihren Arzt oder Apotheker.</div>
-<div><img src="img/Unknown-45.jpeg Kopie.jpg">&rarr; Mindestens 150 min. Bewegung mittlerer Intensität in der Woche.</div>
-<div><img src="img/Unknown-47.jpeg Kopie.jpg">&rarr; Wer hat den Größten?</div>
-<div><img src="img/Unknown-48.jpeg Kopie.jpg">&rarr; Nachtruhe von 22.00 - 7.00 Uhr.</div>
-<div><img src="img/Unknown-49.jpeg Kopie.jpg">&rarr; Bitte machen Sie ihren Sitzplatz gegebenenfalls frei.</div>
-<div><img src="img/Unknown-51.jpeg Kopie.jpg">&rarr; Schlafen im öffentlichen Raum verboten.</div>
-<div><img src="img/Unknown.jpeg Kopie.jpg">&rarr; Achtung, Zug fährt durch.</div>
-
-
-
-
-</body>
+  <body>
+    <div id="wrapper">
+      <h1 id="bigText"></h1>
+    </div>
+  </body>
 </html>
 
